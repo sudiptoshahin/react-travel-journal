@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 700px;
+}
+
+/* .container {
+    padding-top: 10px;
+} */
+
+header {
+    background-color: #F55A5A;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+header nav {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+header nav h1 {
+    font-family: 'Inter';
+}
+
+main {
+    padding: 20px 10px;
+}
+
+section {
+    width: 478px;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    font-family: "Inter";
+    padding-top: 20px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.card--img {
+    width: 125px;
+    height: 168px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.card--details {
+    padding: 5px 20px 15px 10px;
+    width: 70%;
+    color: #2B283A;
+}
+
+.card--location .location-name {
+    letter-spacing: 2px;
+    padding-right: 13px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.card--location .location-icon {
+    color: #F55A5A;
+    font-size: 20px;
+}
+
+.card--location a {
+    color: #918E9B;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 1px solid #918E9B;
+}
+
+.card--title {
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px 0 20px 0;
+}
+
+.card--dates {
+    font-weight: 700;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.card--description {
+    font-weight: 400;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
